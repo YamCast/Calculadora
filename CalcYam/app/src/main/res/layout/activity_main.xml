@@ -19,28 +19,30 @@
             android:orientation="horizontal">
 
             <Button
-                android:id="@+id/button29"
+                android:id="@+id/btnborratodo"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="AC" />
+                android:text="AC"
+                />
 
             <Button
-                android:id="@+id/button30"
+                android:id="@+id/btnborrapoco"
                 android:layout_width="wrap_content"
                 android:layout_height="99dp"
                 android:layout_weight="1"
-                android:text="C" />
+                android:text="C"
+                />
 
             <Button
-                android:id="@+id/button31"
+                android:id="@+id/btnabre"
                 android:layout_width="wrap_content"
                 android:layout_height="99dp"
                 android:layout_weight="1"
                 android:text="(" />
 
             <Button
-                android:id="@+id/button32"
+                android:id="@+id/btncierra"
                 android:layout_width="wrap_content"
                 android:layout_height="99dp"
                 android:layout_weight="1"
@@ -53,28 +55,28 @@
             android:orientation="horizontal">
 
             <Button
-                android:id="@+id/button5"
+                android:id="@+id/btnsin"
                 android:layout_width="wrap_content"
                 android:layout_height="86dp"
                 android:layout_weight="1"
                 android:text="sin" />
 
             <Button
-                android:id="@+id/button6"
+                android:id="@+id/btncos"
                 android:layout_width="wrap_content"
                 android:layout_height="84dp"
                 android:layout_weight="1"
                 android:text="cos" />
 
             <Button
-                android:id="@+id/button7"
+                android:id="@+id/btntan"
                 android:layout_width="wrap_content"
                 android:layout_height="84dp"
                 android:layout_weight="1"
                 android:text="tan" />
 
             <Button
-                android:id="@+id/button8"
+                android:id="@+id/btnlog"
                 android:layout_width="wrap_content"
                 android:layout_height="84dp"
                 android:layout_weight="1"
@@ -87,21 +89,21 @@
             android:orientation="horizontal">
 
             <Button
-                android:id="@+id/button9"
+                android:id="@+id/btnwa"
                 android:layout_width="wrap_content"
                 android:layout_height="96dp"
                 android:layout_weight="1"
                 android:text="X!" />
 
             <Button
-                android:id="@+id/button10"
+                android:id="@+id/btncuadrado"
                 android:layout_width="wrap_content"
                 android:layout_height="85dp"
                 android:layout_weight="1"
                 android:text="X²" />
 
             <Button
-                android:id="@+id/button11"
+                android:id="@+id/btnraiz"
                 android:layout_width="wrap_content"
                 android:layout_height="85dp"
                 android:layout_weight="1"
@@ -121,21 +123,21 @@
             android:orientation="horizontal">
 
             <Button
-                android:id="@+id/button13"
+                android:id="@+id/btnsiet"
                 android:layout_width="wrap_content"
                 android:layout_height="86dp"
                 android:layout_weight="1"
                 android:text="7" />
 
             <Button
-                android:id="@+id/button14"
+                android:id="@+id/btnoct"
                 android:layout_width="wrap_content"
                 android:layout_height="91dp"
                 android:layout_weight="1"
                 android:text="8" />
 
             <Button
-                android:id="@+id/button15"
+                android:id="@+id/btnnuev"
                 android:layout_width="wrap_content"
                 android:layout_height="91dp"
                 android:layout_weight="1"
@@ -155,28 +157,28 @@
             android:orientation="horizontal">
 
             <Button
-                android:id="@+id/button17"
+                android:id="@+id/btncua"
                 android:layout_width="wrap_content"
                 android:layout_height="76dp"
                 android:layout_weight="1"
                 android:text="4" />
 
             <Button
-                android:id="@+id/button20"
+                android:id="@+id/btncinc"
                 android:layout_width="wrap_content"
                 android:layout_height="81dp"
                 android:layout_weight="1"
                 android:text="5" />
 
             <Button
-                android:id="@+id/button18"
+                android:id="@+id/btnseis"
                 android:layout_width="wrap_content"
                 android:layout_height="81dp"
                 android:layout_weight="1"
                 android:text="6" />
 
             <Button
-                android:id="@+id/button19"
+                android:id="@+id/btnmenos"
                 android:layout_width="wrap_content"
                 android:layout_height="81dp"
                 android:layout_weight="1"
@@ -189,28 +191,28 @@
             android:orientation="horizontal">
 
             <Button
-                android:id="@+id/button21"
+                android:id="@+id/btnuno"
                 android:layout_width="wrap_content"
                 android:layout_height="74dp"
                 android:layout_weight="1"
                 android:text="1" />
 
             <Button
-                android:id="@+id/button22"
+                android:id="@+id/btndos"
                 android:layout_width="wrap_content"
                 android:layout_height="76dp"
                 android:layout_weight="1"
                 android:text="2" />
 
             <Button
-                android:id="@+id/button23"
+                android:id="@+id/btntres"
                 android:layout_width="wrap_content"
                 android:layout_height="76dp"
                 android:layout_weight="1"
                 android:text="3" />
 
             <Button
-                android:id="@+id/button24"
+                android:id="@+id/btnsum"
                 android:layout_width="wrap_content"
                 android:layout_height="76dp"
                 android:layout_weight="1"
@@ -230,21 +232,21 @@
                 android:text="§" />
 
             <Button
-                android:id="@+id/button26"
+                android:id="@+id/btncero"
                 android:layout_width="wrap_content"
                 android:layout_height="83dp"
                 android:layout_weight="1"
                 android:text="0" />
 
             <Button
-                android:id="@+id/button27"
+                android:id="@+id/btncoma"
                 android:layout_width="wrap_content"
                 android:layout_height="83dp"
                 android:layout_weight="1"
                 android:text="," />
 
             <Button
-                android:id="@+id/button28"
+                android:id="@+id/btnigual"
                 android:layout_width="wrap_content"
                 android:layout_height="83dp"
                 android:layout_weight="1"
