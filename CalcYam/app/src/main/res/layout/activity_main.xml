@@ -7,11 +7,13 @@
     tools:context=".MainActivity">
 
     <LinearLayout
-        android:layout_width="393dp"
-        android:layout_height="506dp"
+        android:id="@+id/linearLayout"
+        android:layout_width="391dp"
+        android:layout_height="510dp"
         android:orientation="vertical"
-        tools:layout_editor_absoluteX="8dp"
-        tools:layout_editor_absoluteY="201dp">
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -23,16 +25,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="AC"
-                />
+                android:text="AC" />
 
             <Button
                 android:id="@+id/btnborrapoco"
                 android:layout_width="wrap_content"
                 android:layout_height="99dp"
                 android:layout_weight="1"
-                android:text="C"
-                />
+                android:text="C" />
 
             <Button
                 android:id="@+id/btnabre"
@@ -178,7 +178,7 @@
                 android:text="6" />
 
             <Button
-                android:id="@+id/btnmenos"
+                android:id="@+id/btnminus"
                 android:layout_width="wrap_content"
                 android:layout_height="81dp"
                 android:layout_weight="1"
@@ -254,12 +254,25 @@
         </LinearLayout>
     </LinearLayout>
 
-    <RelativeLayout
-        android:layout_width="388dp"
-        android:layout_height="172dp"
-        tools:layout_editor_absoluteX="11dp"
-        tools:layout_editor_absoluteY="18dp">
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="399dp"
+        android:layout_height="26dp"
+        android:text="Calculadora Científica"
+        app:autoSizeMaxTextSize="25dp"
+        app:autoSizeMinTextSize="25dp"
+        app:fontFamily="sans-serif-condensed-medium"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
-    </RelativeLayout>
+    <TextView
+        android:id="@+id/tv_dis"
+        android:layout_width="390dp"
+        android:layout_height="141dp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
