@@ -94,8 +94,6 @@ public class MainActivity extends AppCompatActivity {
         Operador="/";
         onClickOperacionCapt1(View);
     }
-
-
     //es otra operacion
     public void Expn(View View){
         Operador="exp";
@@ -130,8 +128,71 @@ public class MainActivity extends AppCompatActivity {
             tvdisplay.setText(" ");
             res=Math.pov(n1,n2);
         }
+
+        tvdisplay.setText(" "+res);
     }
 
 
+    public void Rnd(View View){
+        for(int x=0; x <= 100; x++){
+            int na=(int)Math.floor(Math.random() + (100-(1+1)+(1)));
+            tvdisplay.setText(String.valueOf(na));
+        }
+    }
 
+    public void Raiz(View View){
+        tvdisplay=(TextView)findViewById(R.id.tv_dis);
+        try{
+            n1=Double.parseDouble(tvdisplay.getText().toString());
+            res=Math.sqrt(n1);
+            tvdisplay.setText(String.valueOf(res));
+
+        }catch (NumberFormatException nfe){}
+    }
+
+    public void ExpCuadrado(View View){
+        tvdisplay=(TextView)findViewById(R.id.tv_dis);
+        try{
+
+            n1=Double.parseDouble(tvdisplay.getText().toString());
+            res=Math.pov(n1,2);
+            tvdisplay.setText(String.valueOf(res));
+        }catch (NumberFormatException nfe){}
+    }
+
+//oferación SEN
+    public void Sen(View View){
+        tvdisplay=(TextView)findViewById(R.id.tv_dis);
+        try{
+
+            n1=Double.parseDouble(tvdisplay.getText().toString());
+            double rd=Math.toRadians(n1);
+            res=Math.sin(rd);
+            tvdisplay.setText(String.valueOf(res));
+        }catch (NumberFormatException nfe){}
+
+    }
+
+    //Operacion TAN
+    public void tan(View View){
+        tvdisplay=(TextView)findViewById(R.id.tv_dis);
+        try{
+
+            n1=Double.parseDouble(tvdisplay.getText().toString());
+            double rd=Math.toRadians(n1);
+            res=Math.tan(rd);
+            tvdisplay.setText(String.valueOf(res));
+        }catch (NumberFormatException nfe){}
+
+    }
+
+    public void Factorial(View View){
+        int fact=1;
+        int x;
+        try{
+            for( x=1; x<=n1; x++){
+                fact=fact * x;
+            }
+        }catch (NumberFormatException nfe) {}
+    }
 }
